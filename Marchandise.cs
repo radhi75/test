@@ -25,7 +25,7 @@ namespace Transport
         public double Volume
         {
             get { return volume; }
-            set { poids = volume; }
+            set { volume = value; }
 
         }
 
