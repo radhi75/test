@@ -4,24 +4,6 @@ namespace Exam
 {
     internal class Program
     {
-       /*static void Recherche(Cargaison cargaison)
-        {
-            int nch;
-            Console.WriteLine("quel marchandise cherché vous");
-            nch = int.Parse(Console.ReadLine());
-            if(cargaison.count()<nch)
-            {
-                Console.WriteLine("le marchandise n'existe pas");
-            }
-            else
-            {
-                Console.WriteLine("chercher la marchandise num " + nch);
-                Marchandise m = cargaison.getMarchandises(nch);
-                Console.WriteLine(m);
-                Console.ReadLine();
-            }
-      
-        }*/
         static void AjouterCargaison(Cargaison cargaison,int num)
         {
             double p, v;
