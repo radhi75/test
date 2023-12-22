@@ -45,7 +45,7 @@ namespace Transport
             double v = 0;
             foreach (Marchandise m in marchandises)
             {
-                v += m.Poids;
+                v += m.Volume;
             }
             return v;
         }
